@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Fira+Sans+Extra+Condensed&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(169, 180, 169);
+    width: 12vw;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+}
+
+.sidebar nav {
+    padding: 35px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 15px;
+    padding: 33px 0;
+    text-align: left;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar nav li a:hover {
+    color: white;
+}
+
+.main {
+    background-color: white;
+    width: 88vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    display: flex;
+    background-color: white;
+    height: 60vh;
+    width: 80vw;
+    margin: 100px auto;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 25px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.devPic img {
+    width: 430px;
+    height: 60vh;
+}
+
+
+.hello {
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.about {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 35px;
+}
+
+.buttons button {
+    padding: 10px 14px;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    color: dodgerblue;
+    background-color: white;
+}
+
+/* Contact Info Page  */
+
+
+.contactform {
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 35px;
+    background-color: white;
+    height: 91.4vh;
+    padding-top: 60px;
+}
+
+.contactform h1 {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.contactform form div {
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contactform form div input {
+    width: 25vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+
+
+#emailHelp {
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 25px;
+    margin: 3px 0;
+}
+
+.submit {
+    padding: 10px 14px;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+
+.submit:hover {
+    color: dodgerblue;
+    background-color: white;
+}
+
+.form-check-input {
+    cursor: pointer;
+}
+
+.myinfo {
+
+    justify-content: center;
+    padding: 25px;
+}
+
+.myinfo h1 {
+    padding: 10px 0px 15px 0px;
+}
+
+.btn {
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 2px;
+}
+
+/* Achievements Page */
+
+.achievements {
+    padding: 20px 0;
+}
+
+.achievements h1 {
+    padding: 20px 0;
+    margin: 23px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.achievementsitem {
+    padding: 15px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.achievementsitem p {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.achievementbutton {
+    padding: 10px 14px;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 10px;
+    margin: 15px 3px;
+    cursor: pointer;
+}
+
+.achievementbutton:hover {
+    color: dodgerblue;
+    background-color: white;
+}
+
+
+/* About Me Page */
+
+.intro{
+    padding: 35px 0;
+}
+
+.intro h2 {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 11px;
+}
+
+.intro p {
+    font-family: 'Source Code Pro', monospace;
+    margin: 11px;
+}
+
+.skillcontainer {
+    padding: 15px 10px 15px 10px;
+
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    width: 22vw;
+}
+
+.skill {
+    width: 265px;
+    height: 7px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundred {
+    width: 265px;
+    background-color: blueviolet;
+}
+
+.fifty {
+    width: 125px;
+    background-color: aqua;
+}
+
+.t5 {
+    width: 75px;
+    background-color: yellowgreen;
+}
+
+.institution {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 11px;
+}
+
+.timeperiod {
+    font-family: 'Source Code Pro', monospace;
+    margin: 11px;
+}
+
+.quote{
+    margin: 50px;
+    font-size:30px;
+    font-style: bolder;
+    color: rgb(30, 255, 0)
+}
